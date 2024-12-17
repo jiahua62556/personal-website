@@ -174,3 +174,20 @@ footer p {
   }
 }
 
+/* Hamburger Icon (for smaller screens) */
+.hamburger {
+  display: none;
+  font-size: 40px; /* Increase the size */
+  color: #4CAF50; /* Green color on hover */
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Media Query for Narrow Screens */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show the hamburger icon */
+    font-size: 45px; /* Increase size for better visibility */
+    padding: 15px; /* Add some padding around the icon */
+  }
+}
